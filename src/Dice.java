@@ -109,7 +109,8 @@ public class Dice
 	
 	public String playAgain()
 	{
-		System.out.print("\n\nDo you want to play again? (Yes or No): ");
+		System.out.printf("\n\nComputer's roll: %d   Guess was: %s   Current Score: %d", diceValue ,userGuess, userPoints);
+		System.out.print("\n\nDo you want to play again? (Yes or No): \n");
 		answer = input.next();
 		
 		return answer;

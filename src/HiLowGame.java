@@ -27,7 +27,7 @@ public class HiLowGame
 			randomVal = hiLow.Throw(numOfDice);
 			
 			// debug Show dice number.
-			System.out.println(randomVal);
+			System.out.println("The computer rolled: " + randomVal);
 			
 			// Generate high value
 			highVal = hiLow.highValue(numOfDice);
