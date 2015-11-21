@@ -35,9 +35,6 @@ public class HiLowGame
 			// get user guess
 			userGuess = hiLow.getUserGuess();
 			
-			// convert String to Int if needed
-			hiLow.userGuessInt(userGuess);
-			
 			// display this round result
 			hiLow.displayRound();
 			
